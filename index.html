@@ -306,6 +306,11 @@
     }
     .about-copy h2 { max-width: 680px; }
     .about-copy p { color: #596575; font-size: 17px; }
+    .about-highlights { display: flex; flex-wrap: wrap; gap: 9px; margin: 22px 0 4px; }
+    .about-chip { padding: 8px 12px; border: 1px solid rgba(19,25,33,.1); border-radius: 999px; color: var(--blue); background: rgba(255,255,255,.62); font-size: 12px; font-weight: 800; }
+    .about-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 25px; }
+    .about-actions .btn-primary { color: var(--navy); }
+    .about-actions .btn-dark { color: var(--white); background: var(--blue); box-shadow: 0 12px 28px rgba(35,47,62,.18); }
     .signature { display: inline-flex; align-items: center; gap: 10px; margin-top: 10px; font-weight: 800; }
     .signature::before { content: ""; width: 36px; height: 3px; border-radius: 99px; background: var(--orange); }
 
@@ -435,19 +440,19 @@
         </div>
         <p class="results-line" id="resultsLine" aria-live="polite">Showing all 5 tools</p>
         <div class="tool-grid" id="toolGrid">
-          <a class="tool-card" href="Bulk KW Mapping and Launcher.html" data-category="research campaigns" data-search="amazon bulk keyword mapping launcher exact phrase broad coverage missing match types campaigns">
+          <a class="tool-card" href="Bulk%20KW%20Mapping%20and%20Launcher.html" data-category="research campaigns" data-search="amazon bulk keyword mapping launcher exact phrase broad coverage missing match types campaigns">
             <div class="card-top"><span class="tool-icon" aria-hidden="true">🔎</span><span class="badge">Ready</span></div><div class="category">Research &amp; Campaigns</div><h3>Bulk Keyword Mapping &amp; Launcher</h3><p>Upload an Amazon bulk operations file to map every keyword to its advertised ASIN and review Exact, Phrase, and Broad coverage. Identify missing match types and create downloadable review and bulk launch files for new campaigns.</p><span class="card-link">Open tool <span class="arrow">→</span></span>
           </a>
-          <a class="tool-card" href="Asin Targeting Mapping & Launcher.html" data-category="research campaigns audit" data-search="asin targeting mapping launcher keyword product target search term gaps duplicates opportunities harvest bulk reports">
+          <a class="tool-card" href="Asin%20Targeting%20Mapping%20%26%20Launcher.html" data-category="research campaigns audit" data-search="asin targeting mapping launcher keyword product target search term gaps duplicates opportunities harvest bulk reports">
             <div class="card-top"><span class="tool-icon" aria-hidden="true">🗺️</span><span class="badge">Ready</span></div><div class="category">Research &amp; Analysis</div><h3>ASIN Targeting Mapping &amp; Launcher</h3><p>Combine bulk operations and advertising reports to map keyword and product targeting by advertised ASIN. Find coverage gaps, duplicates, and harvest opportunities, then export reports or launch ready Sponsored Products campaigns.</p><span class="card-link">Open tool <span class="arrow">→</span></span>
           </a>
-          <a class="tool-card" href="PPC Bid Optimizer.html" data-category="optimization" data-search="ppc bid optimizer sponsored products brands display rules increases decreases holds asin conflicts bulk analysis workbook">
+          <a class="tool-card" href="PPC%20Bid%20Optimizer.html" data-category="optimization" data-search="ppc bid optimizer sponsored products brands display rules increases decreases holds asin conflicts bulk analysis workbook">
             <div class="card-top"><span class="tool-icon" aria-hidden="true">⚡</span><span class="badge">Ready</span></div><div class="category">Optimization</div><h3>PPC Bid Optimizer</h3><p>Upload one or more bulk files and apply configurable bid rules across Sponsored Products, Brands, and Display. Review increases, decreases, holds, and ASIN conflicts before downloading live bulk updates and an analysis workbook.</p><span class="card-link">Open tool <span class="arrow">→</span></span>
           </a>
-          <a class="tool-card" href="Campaign Renaming and Bulk Launcher.html" data-category="campaigns" data-search="campaign renaming bulk launcher ad groups templates intent asin library find replace">
+          <a class="tool-card" href="Campaign%20Renaming%20and%20Bulk%20Launcher.html" data-category="campaigns" data-search="campaign renaming bulk launcher ad groups templates intent asin library find replace">
             <div class="card-top"><span class="tool-icon" aria-hidden="true">🏷️</span><span class="badge">Ready</span></div><div class="category">Campaign Management</div><h3>Campaign Renaming &amp; Bulk Launcher</h3><p>Upload an Amazon bulk file to standardize campaign and ad group names using reusable rules, templates, intent labels, and an ASIN library. Review every change, export renamed bulk files, or use the built in workflow to prepare new campaign launches.</p><span class="card-link">Open tool <span class="arrow">→</span></span>
           </a>
-          <a class="tool-card" href="Buybox Trend Monitoring.html" data-category="audit reporting" data-search="amazon buy box trend monitoring sales impact revenue units business reports asin parent period exposure historical database">
+          <a class="tool-card" href="Buybox%20Trend%20Monitoring.html" data-category="audit reporting" data-search="amazon buy box trend monitoring sales impact revenue units business reports asin parent period exposure historical database">
             <div class="card-top"><span class="tool-icon" aria-hidden="true">📦</span><span class="badge">Ready</span></div><div class="category">Audit &amp; Reporting</div><h3>Buy Box Trend Monitoring</h3><p>Combine Amazon Business Reports over time to compare Buy Box movement with revenue and units ordered. Explore ASIN, parent, period, exposure, and historical trend views, then download an updated monitoring workbook.</p><span class="card-link">Open tool <span class="arrow">→</span></span>
           </a>
         </div>
@@ -473,10 +478,22 @@
         <div class="about-card">
           <div class="portrait-mark"><img class="portrait-photo" src="nikki-profile.jpg" alt="Professional portrait of Nikki Mae C. Sunio"></div>
           <div class="about-copy">
-            <p class="section-kicker">Meet the builder</p>
-            <h2>Petroleum engineer turned Amazon PPC strategist.</h2>
-            <p>I'm Nikki. I build practical tools that turn complex advertising data into decisions people can actually use. This lab brings together the systems, workflows, and tiny efficiency wins I've developed while managing Amazon PPC.</p>
-            <p>Numbers are still numbers. I just traded reservoirs for revenue.</p>
+            <p class="section-kicker">About Nikki</p>
+            <h2>Senior Amazon PPC Manager turning advertising complexity into profitable growth.</h2>
+            <p>I'm Nikki, a Senior Amazon PPC Manager with experience across US and EU agencies. I have managed advertising for more than 50 brands, from emerging sellers and medium-sized businesses to Tier A accounts, with single-brand budgets reaching $185K per month and portfolios of up to 15 brands at a time.</p>
+            <p>My career has grown from intern to junior specialist, senior manager, and team lead. Today, my work spans hands-on advertising strategy, team guidance, and the development of processes and tools that make PPC decisions faster, clearer, and more consistent.</p>
+            <p>I turn inefficient ad spend into profitable, sustainable growth by tailoring every strategy to the brand's goals, margins, stage, and operational needs. My engineering background quietly shapes how I work through disciplined analysis, structured problem solving, critical thinking, and a habit of testing every assumption against the data.</p>
+            <div class="about-highlights" aria-label="Career highlights">
+              <span class="about-chip">50+ brands managed</span>
+              <span class="about-chip">US &amp; EU agencies</span>
+              <span class="about-chip">Up to $185K monthly</span>
+              <span class="about-chip">Up to 15 brands at once</span>
+              <span class="about-chip">Strategy &amp; process development</span>
+            </div>
+            <div class="about-actions">
+              <a class="btn btn-dark" href="nikki-amazon-ppc-portfolio.pdf" target="_blank" rel="noopener">View PPC Portfolio <span class="arrow">→</span></a>
+              <a class="btn btn-primary" href="nikki-amazon-ppc-portfolio.pdf" download>Download PDF</a>
+            </div>
             <span class="signature">Nikki Mae C. Sunio</span>
           </div>
         </div>
